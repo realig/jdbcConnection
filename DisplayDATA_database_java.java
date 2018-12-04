@@ -12,7 +12,7 @@ public class DisplayAll {
 		      String url = "jdbc:mysql://localhost:3306/sql1";
 		      Properties info = new Properties();
 		      info.put("user", "root");
-		      info.put("password", "ouma");
+		      info.put("password", "");
 
 		      dbConnection = DriverManager.getConnection(url, info);
 		      
