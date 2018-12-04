@@ -34,6 +34,7 @@ public class DisplayAll {
 				System.out.println("Record Not Found...");
 			}
 			dbConnection.close();
+			    System.out.println("Connection closed");
 		}
 		catch(Exception e){
 			System.out.println(e);
